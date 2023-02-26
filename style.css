@@ -14,7 +14,7 @@ body {
   padding-top: 2rem;
 }
 .wrapper {
-  width:100%;
+  width: min(85%, 75rem);
   padding-block: 2rem 2rem 0 2rem;
   margin-inline: auto;
 }
@@ -116,7 +116,7 @@ ul a li {
 .girl-image {
   padding-left: 20%;
   width: 100%;
-  max-width: 362px;
+    max-width: 362px;
 }
 .girl {
   position: absolute;
@@ -303,7 +303,7 @@ ul a li {
   display: grid;
   grid-template-columns: 30% 70%;
 
-  width:100%;
+  width: min(85%, 75rem);
   padding-block: 2rem 2rem;
   margin-inline: auto;
 }
@@ -361,33 +361,33 @@ footer ul li {
 
 @media only screen and (max-width: 891px) {
   .wrapper {
-    width: min(95%, 90rem);
-    padding-block: 2rem 2rem 0 2rem;
-    margin-inline: auto;
-  }
+  width: min(95%, 90rem);
+  padding-block: 2rem 2rem 0 2rem;
+  margin-inline: auto;
+}
   .heading {
     margin-bottom: 5.5rem;
   }
-  .girl-image {
-    padding-left: 20px;
-    margin: 0 auto;
-    width: 100%;
+ .girl-image {
+  padding-left: 20px;
+  margin: 0 auto;
+  width: 100%;
     max-width: 362px;
-  }
-  .invest {
-    position: relative;
-    height: 7rem;
-    top: 13rem;
-    right: -16%;
-    z-index: 100;
-  }
-  .rent {
-    position: relative;
-    height: 7rem;
-    top: 7rem;
-    right: 6rem;
-    z-index: 10;
-  }
+}
+.invest {
+  position: relative;
+  height: 7rem;
+  top: 13rem;
+  right: -16%;
+  z-index: 100;
+}
+.rent {
+  position: relative;
+  height: 7rem;
+  top: 7rem;
+  right: 6rem;
+  z-index: 10;
+}
 
   .priority {
     text-align: center;
@@ -410,7 +410,7 @@ footer ul li {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
-    margin: 10rem 0;
+    margin:10rem 0;
   }
   .build-section-items:nth-child(1) {
     text-align: center;
@@ -462,89 +462,90 @@ footer ul li {
     margin-top: 6rem;
     margin-bottom: 6rem;
     padding: 0 5rem;
-  }
+  } 
   .featured-div {
     display: block;
     text-align: center;
     grid-template-columns: 1fr;
-    width: 100%;
-    padding-block: 2rem 0rem;
-    margin-inline: auto;
+  width:100%;
+  padding-block: 2rem 0rem;
+  margin-inline: auto;
   }
-  .featured-in h3 {
+  .featured-in h3{
     display: block;
-    /* grid-column: span 3; */
-    margin-bottom: 2.5rem;
+/* grid-column: span 3; */
+margin-bottom: 2.5rem;
   }
-  .featured-logos {
+  .featured-logos{
     display: block;
     padding-bottom: 1rem;
   }
   .featured .featured-logos img {
-    height: 1.5rem;
-    padding: 0 2rem;
-  }
+  height: 1.5rem;
+  padding: 0 2rem;
+}
   .hero-section {
     grid-template-columns: 1fr;
     text-align: center;
   }
-  .footer-nav {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 2rem;
-  }
-  .footer-nav div:nth-child(1) {
-    grid-column: span 2;
-  }
-  .footer-nav div:nth-child(4) {
-    grid-column: span 2;
-  }
-  .compliance {
-    left: 4%;
-  }
-
-  .bottom-text {
-    text-align: center;
-    font-size: 14px;
-    padding: 0% 1.5% 5% 1.5%;
-  }
-  .bottom-text p {
-    text-align: center;
-    font-size: 14px;
-    padding: 1rem 0;
-  }
+ .footer-nav {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 2rem;
 }
+.footer-nav div:nth-child(1){
+grid-column:span 2 ;
+}
+.footer-nav div:nth-child(4){
+  grid-column:span 2 ;
+}
+.compliance {
+  left: 4%;
+}
+
+.bottom-text {
+  text-align: center;
+  font-size: 14px;
+  padding: 0% 1.5% 5% 1.5%;
+}
+.bottom-text p {
+  text-align: center;
+  font-size: 14px;
+  padding: 1rem 0;
+}
+}
+
 
 @media only screen and (max-width: 600px) {
-  .wrapper {
-    width: 100%;
-    padding-block: 2rem 0rem 0 0rem;
-    margin-inline: auto;
-  }
+ .wrapper {
+  width: min(95%, 90rem);
+  padding-block: 2rem 2rem 0 2rem;
+  margin-inline: auto;
+}
   .heading {
     margin-bottom: 5.5rem;
   }
-  .girl-image {
-    padding-left: 20px;
-    margin: 0 auto;
-    width: 100%;
+ .girl-image {
+  padding-left: 20px;
+  margin: 0 auto;
+  width: 100%;
     max-width: 362px;
-  }
-  .invest {
-    position: relative;
-    height: 7rem;
-    top: 13rem;
-    right: -16%;
-    z-index: 100;
-  }
-  .rent {
-    position: relative;
-    height: 7rem;
-    top: 7rem;
-    right: 6rem;
-    z-index: 10;
-  }
+}
+.invest {
+  position: relative;
+  height: 7rem;
+  top: 13rem;
+  right: -16%;
+  z-index: 100;
+}
+.rent {
+  position: relative;
+  height: 7rem;
+  top: 7rem;
+  right: 6rem;
+  z-index: 10;
+}
 
   .priority {
     text-align: center;
@@ -567,7 +568,7 @@ footer ul li {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
-    margin: 10rem 0;
+    margin:10rem 0;
   }
   .build-section-items:nth-child(1) {
     text-align: center;
@@ -619,56 +620,55 @@ footer ul li {
     margin-top: 6rem;
     margin-bottom: 6rem;
     padding: 0 5rem;
-  }
+  } 
   .featured-div {
     display: block;
     text-align: center;
     grid-template-columns: 1fr;
-    width: 100%;
-    padding-block: 2rem 0rem;
-    margin-inline: auto;
+  width:100%;
+  padding-block: 2rem 0rem;
+  margin-inline: auto;
   }
-  .featured-in h3 {
+  .featured-in h3{
     display: block;
-    /* grid-column: span 3; */
-    margin-bottom: 2.5rem;
+/* grid-column: span 3; */
+margin-bottom: 2.5rem;
   }
-  .featured-logos {
+  .featured-logos{
     display: block;
     padding-bottom: 1rem;
   }
   .featured .featured-logos img {
-    height: 1.5rem;
-    padding: 0 2rem;
-  }
+  height: 1.5rem;
+  padding: 0 2rem;
+}
   .hero-section {
     grid-template-columns: 1fr;
     text-align: center;
   }
-  .footer-nav {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 2rem;
-  }
-  .footer-nav div:nth-child(1) {
-    grid-column: span 2;
-  }
-  .footer-nav div:nth-child(4) {
-    grid-column: span 2;
-  }
-  .compliance {
-    left: 4%;
-  }
-
-  .bottom-text {
-    text-align: center;
-    font-size: 14px;
-    padding: 0% 1.5% 5% 1.5%;
-  }
-  .bottom-text p {
-    text-align: center;
-    font-size: 14px;
-    padding: 1rem 0;
-  }
+ .footer-nav {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 2rem;
 }
+.footer-nav div:nth-child(1){
+grid-column:span 2 ;
+}
+.footer-nav div:nth-child(4){
+  grid-column:span 2 ;
+}
+.compliance {
+  left: 4%;
+}
+
+.bottom-text {
+  text-align: center;
+  font-size: 14px;
+  padding: 0% 1.5% 5% 1.5%;
+}
+.bottom-text p {
+  text-align: center;
+  font-size: 14px;
+  padding: 1rem 0;
+}}
