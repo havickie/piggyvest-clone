@@ -619,8 +619,13 @@ footer ul li {
     padding-block: 2rem 2rem 0 2rem;
     margin-inline: auto;
   }
+    .hero-section {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 0;
+  }
   .heading {
-    margin-bottom: 5.5rem;
+    margin-bottom: .5rem;
   }
   .girl-image .fine-girl {
     height: 20rem;
@@ -656,7 +661,7 @@ footer ul li {
 
   .priority {
     text-align: center;
-    margin: 3rem 0 7rem 0;
+    margin: -7rem 0 7rem 0;
     grid-template-columns: repeat(1, 1fr);
     gap: 0;
   }
