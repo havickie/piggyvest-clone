@@ -600,6 +600,9 @@ footer ul li {
     width: max-content;
     margin: 0px auto 0;
   }
+  .signup-div{
+  margin-bottom: .1rem;
+}
 
   .app {
     margin-top: 1rem;
