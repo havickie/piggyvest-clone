@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+body {
+  background-color: #062863;
+  display: flex;
+}
+h2 {
+  color: #083e9e;
+  font-size: 1.5rem;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.logo img {
+  height: 43.5px;
+}
+.text {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.text p{
+ margin-top: 7px;
+ font-size: 16px;
+  color: #576277;
+}
+.form {
+  background-color: #fff;
+  border-radius: 25px 25px 25px 0;
+ 
+  padding: 3rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-bottom: 2.2rem;
+  padding: 1.3rem;
+  text-align: center;
+  border-radius: 0.25rem;
+  outline: 0;
+  display: block;
+  background-color: #edf2f7;
+  border: 0 solid #e2e8f0;
+}
+.form-section {
+  margin: 0 auto;
+  padding: 5rem;
+  justify-content: center;
+}
+.btn {
+  color: #fff;
+  background-color: #0d60d8;
+  border-radius: 10px 10px 10px 0;
+  font-weight: 600;
+  font-size: 19px;
+  margin-top: .1rem;
+  padding-top:1rem ;
+  padding-bottom: 1rem;
+}
+.subheading {
+  color: #4a5568;
+}
+label {
+  color: #4a5568;
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 700px) {
+ .form {
+  background-color: #fff;
+  border-radius: 25px 25px 25px 0;
+  min-width: 2rem;
+  padding: 2rem;
+}
+}
