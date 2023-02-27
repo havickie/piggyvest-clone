@@ -43,6 +43,7 @@ h4 {
 
 a {
   text-decoration: none;
+  color: #0c1825;
 }
 nav {
   display: flex;
@@ -681,6 +682,7 @@ footer ul li {
     gap: 1rem;
     grid-template-columns: 1fr;
     margin: 8rem 0;
+    text-align: center;
   }
   .build-section-items:nth-child(1) {
     text-align: center;
