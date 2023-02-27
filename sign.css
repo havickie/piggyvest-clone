@@ -8,9 +8,17 @@
   font-family: sans-serif;
 }
 body {
+ position: relative;
   background-color: #062863;
   display: flex;
+  background-image: url(/Images/circle.png),url(/Images/Inverted\ J.png),url(/Images/J.png),url(/Images/angle\ bracket.png);
+      background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 15%, 15%, 15%, 15%;
+ 
 }
+
+
 h2 {
   color: #083e9e;
   font-size: 1.5rem;
@@ -22,26 +30,32 @@ h2 {
 }
 .logo img {
   height: 43.5px;
-}
-.text {
-  text-align: center;
-  margin-bottom: 2.5rem;
-}
-.text p{
- margin-top: 7px;
- font-size: 16px;
-  color: #576277;
+}.form-section {
+ z-index: 2;
+  margin: 0 auto;
+  padding: 5rem;
+  justify-content: center;
 }
 .form {
   background-color: #fff;
   border-radius: 25px 25px 25px 0;
- 
-  padding: 3rem;
+  min-width: 30rem;
+  padding: 5rem 3rem 3rem 3rem;
 }
 form {
   display: flex;
   flex-direction: column;
 }
+.text {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.text p {
+  margin-top: 7px;
+  font-size: 16px;
+  color: #576277;
+}
+
 input {
   margin-bottom: 2.2rem;
   padding: 1.3rem;
@@ -52,10 +66,28 @@ input {
   background-color: #edf2f7;
   border: 0 solid #e2e8f0;
 }
-.form-section {
-  margin: 0 auto;
-  padding: 5rem;
-  justify-content: center;
+input::placeholder{
+ text-align: left;
+ font-size: 18px;
+ color: #c0c4c9;
+}
+
+select{
+ text-align: left;
+   margin-bottom: 2.2rem;
+  padding: 1.3rem;
+  border-radius: 0.25rem;
+  outline: 20px;
+  display: block;
+  background-color: #edf2f7;
+  border: 0 solid #e2e8f0;
+  color: #3f3f3f;
+
+}
+select::-ms-expand{
+  border:1px solid #0d60d8;
+}
+option{
 }
 .btn {
   color: #fff;
@@ -63,8 +95,8 @@ input {
   border-radius: 10px 10px 10px 0;
   font-weight: 600;
   font-size: 19px;
-  margin-top: .1rem;
-  padding-top:1rem ;
+  margin-top: 0.1rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
 }
 .subheading {
@@ -75,13 +107,34 @@ label {
   margin-bottom: 12px;
   font-size: 15px;
   font-weight: 600;
+ }
+ .register-links{
+  margin-top: 2rem;
+   text-align: center;
+  
+ }
+.register-links p a{
+ line-height: 1.5;
+padding-bottom: 1rem;
+ text-decoration: none;
+ color: #fff;
+}
+.register-links p a:hover{
+ color: #838d9f;
 }
 
 @media only screen and (max-width: 700px) {
- .form {
-  background-color: #fff;
-  border-radius: 25px 25px 25px 0;
-  min-width: 2rem;
-  padding: 2rem;
-}
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2.7rem 0 0 0;
+    width: 95%;
+  }
+  .form {
+    background-color: #fff;
+    border-radius: 25px 25px 25px 0;
+min-width: 2rem;
+    padding: 2rem 1rem 1rem 1rem;
+  }
+
 }
