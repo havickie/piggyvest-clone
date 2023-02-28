@@ -466,6 +466,9 @@ footer ul li {
     display: flex;
     justify-content: center;
   }
+  .investment-img img {
+  height: 25rem;
+}
   .investment-text {
     grid-column-start: span 6;
     padding: 3rem 5rem 5rem 5rem;
@@ -705,6 +708,9 @@ footer ul li {
     display: flex;
     justify-content: center;
   }
+  .investment-img img {
+  height: 20rem;
+}
   .investment-text {
     justify-content: start;
     grid-column-start: span 1;
