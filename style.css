@@ -292,19 +292,27 @@ ul a li {
 
 /* testimonial scroll */
 #scroll-container {
-  padding: 1rem;
+ 
   /* width: 28rem; */
   margin: 0 auto;
 width: auto;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  
  
   overflow: hidden;
 }
+.testimonial-box{
+  background-color: #f9f9f9;
+   padding: 1rem;
+    border-radius: 5px;
+}
 .testimonial-date{
+ 
   font-size: 13px;
   text-align: right;
   margin-bottom: 1rem;
+ 
+  
 }
 .user{
   display: flex;
