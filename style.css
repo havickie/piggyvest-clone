@@ -407,7 +407,7 @@ footer ul li {
   color: #083e9e;
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 1000px) {
   body {
     padding: 0;
   }
