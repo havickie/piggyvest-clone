@@ -156,7 +156,7 @@ ul a li {
 }
 
 .priority {
-  margin: 4rem 0 10rem 0;
+  margin: -4rem 0 10rem 0;
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
@@ -462,8 +462,9 @@ footer ul li {
   }
 
   .priority {
+   
     text-align: center;
-    margin: 3rem 0 7rem 0;
+    margin: -6rem 0 7rem 0;
     grid-template-columns: repeat(1, 1fr);
     gap: 0;
   }
