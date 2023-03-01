@@ -90,31 +90,6 @@ ul a li {
   color: #fff;
   font-weight: 700;
 }
-@media only screen and (max-width: 1270px) {
-
-.nav-links {
-  padding: 15px 0 0 0;
-  margin-right: 4rem;
-}
-
-ul li {
-
-  margin: -1;
-  position: relative;
-  top: 1rem;
-  right: -1.5rem;
-  font-size: 15px;
-}
-ul a li {
-  display: inline;
-  padding-top: 2rem;
-}
-.logo {
-  height: 1.9rem;
-  position: relative;
-  top: 1.4rem;
-}
-}
 
 .hero-section {
   padding-block: 4rem 0rem;
@@ -171,6 +146,7 @@ ul a li {
   right: 6rem;
   z-index: 10;
 }
+
 .border {
   position: relative;
   height: 32rem;
@@ -178,6 +154,49 @@ ul a li {
   top: -16.5rem;
   right: -1.3rem;
   z-index: 0;
+}@media only screen and (max-width: 1270px) {
+
+.nav-links {
+  padding: 15px 0 0 0;
+  margin-right: 4rem;
+}
+
+ul li {
+
+  margin: -1;
+  position: relative;
+  top: 1rem;
+  right: -1.5rem;
+  font-size: 15px;
+}
+ul a li {
+  display: inline;
+  padding-top: 2rem;
+}
+.logo {
+  height: 1.9rem;
+  position: relative;
+  top: 1.4rem;
+}
+.girl-image {
+  padding-left:10%;
+}
+.fine-girl {
+  height: 29rem;
+}
+.invest {
+ height: 6.5rem;
+   right: -13rem;
+ 
+}
+.rent {
+
+  height: 6.5rem;
+  top: 7rem;
+  right: 4rem;
+
+}
+
 }
 
 .priority {
