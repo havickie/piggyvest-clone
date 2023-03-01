@@ -17,7 +17,7 @@ body {
   display: none;
 }
 .wrapper {
-  width: min(85%, 75rem);
+  width: min(88%, 75rem);
   padding-block: 2rem 2rem 0 2rem;
   margin-inline: auto;
 }
@@ -74,7 +74,7 @@ ul a li {
   margin-right: 4rem;
 }
 .sign-in {
-  padding: 1.2rem 1.4rem;
+ padding: 1rem 1.4rem;
   background: #fff;
   border-radius: 10px;
   border: 1px solid #9f9fa7;
@@ -84,11 +84,36 @@ ul a li {
   margin-bottom: 3rem;
 }
 .sign-up {
-  padding: 1.2rem 1.5rem;
+  padding: 1rem 1rem;
   border-radius: 10px;
   background-color: #0c1825;
   color: #fff;
   font-weight: 700;
+}
+@media only screen and (max-width: 1270px) {
+
+.nav-links {
+  padding: 15px 0 0 0;
+  margin-right: 4rem;
+}
+
+ul li {
+
+  margin: -1;
+  position: relative;
+  top: 1rem;
+  right: -1.5rem;
+  font-size: 15px;
+}
+ul a li {
+  display: inline;
+  padding-top: 2rem;
+}
+.logo {
+  height: 1.9rem;
+  position: relative;
+  top: 1.4rem;
+}
 }
 
 .hero-section {
